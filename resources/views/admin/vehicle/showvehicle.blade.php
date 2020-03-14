@@ -68,7 +68,7 @@
         <div class="input-group-prepend">
             <div class="input-group-text bg-success">Ground Clearance</div>
         </div>
-        <input type="number" value="{{($vehicle)?$vehicle['ground_cleatance']:''}}" name="ground_cleatance" class="form-control"disabled/>
+        <input type="number" value="{{($vehicle)?$vehicle['ground_clearance']:''}}" name="ground_clearance" class="form-control"disabled/>
   </div>
   <div class="input-group col-md-3 mb-2 mr-sm-2 ">
         <div class="input-group-prepend">
